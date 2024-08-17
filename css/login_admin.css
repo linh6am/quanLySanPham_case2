@@ -1,0 +1,57 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(177, 178, 179, 0.5);
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 400px;
+    height: 240px;
+    text-align: center;
+}
+
+.popup h2 {
+    margin: 10px;
+}
+
+.popup input {
+    width: 90%;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgb(229, 231, 231);
+    border: 1px solid rgb(198, 196, 196);
+    outline: none;
+
+}
+
+input:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+.popup button {
+    width: 30%;
+    padding: 10px 10px;
+    margin: 10px;
+    background: #4c668e;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background: #206ec2;
+}
